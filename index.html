@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .container {
+                width: 100%;
+                height: 100%;
+            }
+            .header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgb(126, 147, 240);
+                width: 100%;
+                height: 25%;
+            }
+            .div1 {
+                position: absolute;
+                float: left;
+                width: 20%;
+               
+                height: 100%;
+            }
+            .image1 {
+                width: 100px;
+                padding: 50px 50px 50px 75px;
+            }
+           .div2 {
+               position: absolute;
+               width: 60%;
+               float: left;
+               
+               height: 100%;
+               margin-left: 275px;
+           }
+           .header h3,h4 {
+               text-align: center;
+               color: rgb(209, 209, 38);
+               
+           }
+           .header h3 {
+               font-size: 25px;
+           }
+           .header h4 {
+               font-size: 18px;
+           }
+           .div3 {
+               position: absolute;
+               width: 20%;
+               
+               height: 100%;
+               float: left;
+               right: 0px;
+           }
+           .image2 {
+               width: 200px;
+               padding: 50px 0 50px 0px;
+            }
+            .navbar {
+                width: 100%;
+                height: 7%;
+                background-color: White;
+                top: 165px;
+                left: 0;
+                position: absolute;
+               
+            }
+            .navbar ul {
+                padding-left: 55px;
+            }
+            .navbar ul li {
+                list-style: none;
+                float: left;
+                color: gray;
+                padding-left: 14px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .navbar ul li:hover {
+                color: black;
+                cursor: pointer;
+            }
+            .backgroundImage {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                top: 200px;
+            }
+            .img3 {
+                width: 100%;
+                padding-top: 20px;
+            }
+            .intro {
+                text-align: center;
+                color: darkblue;
+                padding: 25px 55px 0 55px;
+                position: absolute;
+                top: 1000px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+            }
+            .mainbody {
+                width: 100%;
+                top: 1200px;
+                left: 0;
+                position: absolute;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .mainbody h5 {
+                color: rgb(68, 68, 247);
+                font-size: 17px;
+                font-weight: normal;
+            }
+            .interest h4{
+                font-size: 18px;
+                font-weight: normal;
+                color: red;
+                text-align: left;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                
+            }
+            .interest {
+                position: absolute;
+                margin-left: 75px;
+                padding-left: 25px;
+                background-color: rgb(133, 193, 233);
+                float: left;
+                width: 30%;
+                border-radius: 5px;
+                padding-bottom: 0px;
+            }
+            .interest ul li{
+                font-size: 15px;
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .part2 {
+                position: absolute;
+                width: 50%;
+                float: left;
+                margin-left: 600px;
+        
+            }
+            .editorial {
+                position: absolute;
+                border-radius: 5px;
+                width: 100%;
+                border-radius: 5px;
+            }
+            .editorial h4 {
+                text-align: left;
+                font-weight: normal;
+                font-size: 15px;
+            }
+            .left {
+                position: absolute;
+                float: left;
+                width: 100%;
+            }
+            .left ul li {
+                list-style: none;
+            }
+            .right {
+                position: absolute;
+                float: left;
+                width: 50%;
+                padding-left: 300px;
+            }
+            .right ul li {
+                list-style: none;
+            }
+            .contact {
+                background-color: rgb(133, 193, 233);
+                position: absolute;
+                border-radius: 5px;
+                margin-left: 10px;
+                margin-top: 175px;
+                
+            }
+            .bottom {
+                position: absolute;
+                width: 100%;
+                top: 750px;
+                left: 0;
+            }
+            .bottom ul li {
+                list-style: none;
+                padding-left: 0;
+            }
+            .bottom h2 {
+                color: rgb(231, 116, 116);
+            }
+            .bottom ul {
+                padding-left: 0;
+                padding-top: 50px;
+            }
+            .download {
+                width: 31%;
+                background-color: rgb(133, 193, 233);
+                height: 15%;
+                position: absolute;
+                top: 2600px;
+                left: 75px;
+                text-align: center;
+            }
+            .footer {
+                text-align: center;
+                background-color: blue;
+                color: yellow;
+                position: absolute;
+                width: 100%;
+                height: 3%;
+                top: 2700px;
+                padding: 15px 0 15px 0;
+            }
+            .last {
+                position: absolute;
+                top: 2750px;
+                width: 100%;
+                padding: 5px 0 5px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="div1"><img src="ujimLogo.jpg" class="image1"></div>
+                <div class="div2"><h3>University Journal of ICT in Multidisciplinary Issues on Arts & Science,</h3>
+                        <h4>Engineering, Economics and Education (Volume-1)</h4>
+                </div>
+                <div class="div3"><img src="journal_logo.png" class="image2"></div>
+
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>Topics</li>
+                    <li>Call for Papers</li>
+                    <li>Editorial Board</li>
+                    <li>Download Session</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="backgroundImage"><img src="background.jpg" class="img3"></div>
+            <div class="intro"><h2>“ICT in Multidisciplinary”</h2>
+                <p>Foster to explore the new contributions of the heterogeneous subjects engaged with ICT, as consequences motivate researchers around the universities to come out new research ideas on their professional.</p>
+            </div>
+            <div class="mainbody">
+                <div class="interest">
+                    <h4>Area of Interest</h4><hr>
+                    <h5>Computer Science and Technology</h5>
+                    <ul>
+                        <li>Natural Language Processing</li>
+                        <li>Parallel Distributed Computing</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Cloud Computing</li>
+                        <li>Data Science</li>
+                        <li>Image and Digital Signal Processing</li>
+                        <li>Software Engineering and web Engineering</li>
+                        <li>Database Management System and Information Retrieval</li>
+                        <li>Embedded System and Internet of Things (IOT)</li>
+                        <li>Networking and Security</li>
+                    </ul>
+                    <h5>Arts & Sciences</h5>
+                    <ul>
+                        <li>Maths</li>
+                        <li>Statistical & Mathematical Computing</li>
+                        <li>Engineering Maths</li>
+                        <li>Environmental Studies</li>
+                        <li>Geography related with ICT</li>
+                        <li>Applied Science</li>
+                        <li>Physics</li>
+                        <li>Natural Science</li>
+                        <li>Engineering Physics</li>
+                        <li>Myanmar Language (Written in English)</li>
+                        <li>English Language Learning and Teaching</li>
+                    </ul>
+                    <h5>International Relations</h5>
+                    <ul>
+                        <li>International Relations</li>
+                        <li>International Relations related in ICT</li>
+                    </ul>
+                    <h5>Laws related in ICT</h5>
+                    <ul>
+                        <li>Intellectual Property</li>
+                    </ul>
+                    <h5>Engineering</h5>
+                    <ul>
+                        <li>Electronic and Electrical Engineering</li>
+                        <li>Electrical Power</li>
+                        <li>Information Technology</li>
+                        <li>Chemical Engineering</li>
+                    </ul>
+                    <h5>Economics</h5>
+                    <h5>Education</h5>
+                </div>
+                <div class="part2">
+                    <div class="editorial">
+                        <h4>Editorial Chair</h4><h4>Dr.Yuzana</h4><hr>
+                        <div class="left">
+                            <ul>
+                                <li>Editorial Board</li>
+                                <li>Thitinan Pongsudhirank</li>
+                                <li>Dr. Kenki Adachi</li>
+                                <li>Dr. Supavadee Aramvith</li>
+                                <li>Dr. Zaw Zaw Aung</li>
+                                <li>Dr. Marlar</li>
+                                <li>Dr. Nilar Myint Htoo</li>
+                                <li>Dr. Thidar</li>
+                                <li>Dr. Nilar Aung</li>
+                                <li>Dr. Ye Kyaw Thu</li>
+                                <li>Dr. Yin Myo Thu</li>
+                                <li>Dr. Soe Moe Tun</li>
+                                <li>Dr. Kay Thwe Hlaing</li>
+                                <li>Dr. Moe Thandar Kyi</li>
+                                <li>Dr.Win Zaw</li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul>
+                                <li>Dr. Soe Soe Aye</li>
+                                <li>Dr. Tin Zaw Thaw</li>
+                                <li>Dr. Hlaing Htake Khaung Tin</li>
+                                <li>Dr. Thet Mar Tun</li> 
+                                <li>Dr. Naw Wai Wai Sin</li>
+                                <li>Daw Myo Myo Khin</li>
+                                <li>Daw Nyunt Nyunt Htwe</li>
+                                <li>Daw Nu Nu Win</li>
+                            </ul>
+                            <div class="contact">
+                                <table>
+                                    <tr>
+                                        <td>Contact Person</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dr. Yuzana</td>
+                                        <td>Dr.Tin Zar Thaw</td>
+                                    </tr>
+                                    <tr>
+                                        <td>09-794065357</td>
+                                        <td>09- 421037973</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Contact mail: Journal@ucsh.edu.mm</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <h2>SUBMISSION OF PAPERS</h2>
+                        <p>Authors are invited to submit the RESEARCH paper about 6 pages in Microsoft Word file formula as attached all manuscripts will be peer-reviewed by the Technical Program Committee and Editorial Board. The paper must submit your paper through <span style="font-weight: bold">email: journal@ucsh.edu.mm </span>Template of paper can be download from the site: <span style="bold">ujim-ucsh.org </span></p>
+                        <h2>IMPORTANT DATES</h2>
+                        <p style="font-weight:bold ">Deadline: 9 May 2020<br>
+                                Revised: 27 May 2020<br>
+                                Deadline for Camera Ready: 29 May 2020 </p>
+                        <h2>REGISTRATION FEES</h2>
+                        <h3 style="color: red; font-size: 15px; font-weight: normal;">Last Date of Registration: 6 June 2020 </h3>
+                        <p style="font-weight: bold;  ">Registration Fees: 20000 Kyats<br>
+                            Account: KBZ Bank Account No. 01830201800911901<br>
+                            All Accepted paper will be published and UJIM proceedings will be provided for each author. </p>
+                        <ul>
+                            <li>For paper template, Click here (.docx) and (.pdf)</li>
+                            <li>For copyright agreement, Click here (.docx) and (.pdf)</li>
+                            <li>For ERC recommendation, Click here (.docx) and (.pdf)</li>
+                            <li>For rector recommendation, Click here (.docx) and (.pdf)</li>
+                            <li>For admission,Click here (.docx) and (.pdf)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="download">
+                <h1>Download Session </h1>
+            </div>
+            <div class="footer">
+                &copy;UJIM - 2020 
+            </div>
+            <p class="last">Could not connect to the reCAPTCHA service. Please check your internet connection and reload to get a reCAPTCHA challenge.</p>
+        </div>
+    </body>
+</html>

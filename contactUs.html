@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .container {
+                width: 100%;
+                height: 100%;
+            }
+            .header {
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: rgb(126, 147, 240);
+                width: 100%;
+                height: 25%;
+            }
+            .div1 {
+                position: absolute;
+                float: left;
+                width: 20%;
+               
+                height: 100%;
+            }
+            .image1 {
+                width: 100px;
+                padding: 50px 50px 50px 75px;
+            }
+           .div2 {
+               position: absolute;
+               width: 60%;
+               float: left;
+               
+               height: 100%;
+               margin-left: 275px;
+           }
+           .header h3,h4 {
+               text-align: center;
+               color: rgb(209, 209, 38);
+               
+           }
+           .header h3 {
+               font-size: 25px;
+           }
+           .header h4 {
+               font-size: 18px;
+           }
+           .div3 {
+               position: absolute;
+               width: 20%;
+               
+               height: 100%;
+               float: left;
+               right: 0px;
+           }
+           .image2 {
+               width: 200px;
+               padding: 50px 0 50px 0px;
+            }
+            .navbar {
+                width: 100%;
+                height: 7%;
+                background-color: rgb(240, 224, 224);
+                top: 165px;
+                left: 0;
+                position: absolute;
+               
+            }
+            .navbar ul {
+                padding-left: 55px;
+            }
+            .navbar ul li {
+                list-style: none;
+                float: left;
+                color: gray;
+                padding-left: 14px;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .navbar ul li:hover {
+                color: black;
+                cursor: pointer;
+            }
+            .mainbody {
+                position: absolute;
+                top: 250px;
+                left: 0;
+                width: 100%;
+              
+
+            }
+            .map {
+                float: left;
+                position: absolute;
+                left: 50px;
+                
+            }
+            .map ul li {
+                list-style: none;
+                padding: 5px 0 5px 0;
+            }
+            .form {
+                position: absolute;
+                float: left;
+               
+                left: 750px;
+            }
+            .footer {
+                text-align: center;
+                background-color: blue;
+                color: yellow;
+                position: absolute;
+                width: 100%;
+                height: 20%;
+                top: 700px;
+                padding: 5px 0 15px 0;
+            }
+            .last {
+                position: absolute;
+                top: 725px;
+                width: 100%;
+                padding: 5px 0 5px 0;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="header">
+                <div class="div1"><img src="ujimLogo.jpg" class="image1"></div>
+                <div class="div2"><h3>University Journal of ICT in Multidisciplinary Issues on Arts & Science,</h3>
+                     <h4>Engineering, Economics and Education (Volume-1)</h4>
+                </div>
+                <div class="div3"><img src="journal_logo.png" class="image2"></div>
+            
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>Topics</li>
+                    <li>Call for Papers</li>
+                    <li>Editorial Board</li>
+                    <li>Download Session</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="mainbody">
+                <div class="map">
+                    <h1 style="padding-left: 30px;">Contact Us</h1>
+                    <ul>
+                        <li>Tel : <span style="color:rgb(91, 89, 241); "> 9-794065357,9-421037973</span></li>
+                        <li>Email : <span style="color:rgb(91, 89, 241); ">journal@ucsh.edu.mm</span></li>
+                        <li>Website : <span style="color:rgb(91, 89, 241); ">ujim-ucsh.org</span></li>
+                    </ul>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624892.1939804568!2d95.99870722337481!3d21.87629565862858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb7d7dbe67f4df%3A0xc32e01ccd4dc4777!2sUniversity%20of%20Yatanarpon%20Cyber%20City(UTYCC)!5e0!3m2!1sen!2smm!4v1590147643774!5m2!1sen!2smm" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="form">
+                    <h2>Get In Touch</h2>
+                    <form>
+                        <label for="name">Your Name(Required)</label><br><br>
+                        <input type="text" id="name" name="name" style="width: 350px;"><br><br>
+                        <label for="email">Your Email(Required)</label><br><br>
+                        <input type="email" id="email" name="email" style="width: 350px;"><br><br>
+                        <label for="subject">Subject</label><br><br>
+                        <input type="text" id="subject" name="subject" style="width: 350px;"><br><br>
+                        <label for="message">Message</label><br><br>
+                        <textarea style="height: 250px; width: 350px;" ></textarea><br><br>
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+                <div class="footer">
+                        &copy;UJIM - 2020 
+                    </div>
+                    <p class="last">Could not connect to the reCAPTCHA service. Please check your internet connection and reload to get a reCAPTCHA challenge.</p>
+                </div>
+            </div>
+            
+    </body>

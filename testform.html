@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            button {
+                width: 100px;
+                background-color: darkblue;
+                color: white;
+            }
+            button:hover {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <input type="text" name="fname" placeholder="First name"><br>
+            <input type="text" name="lname" placeholder="Last name"><br>
+            <input type="number" name="age" placeholder="Age"><br>
+            <input type="password" name="password" placeholder="Password">
+        </div>
+        <div>
+            Favourite Language?
+            <input type="radio" name="language" value="Java">Java
+            <input type="radio" name="language" value="php">PHP
+            <input type="radio" name="language" value="python">Python
+            <input type="radio" name="language" value="C#">C#
+        </div>
+        <div>
+            <input list="country" name="country" placeholder="Country">
+            <datalist id="country">
+                <option value="Afghanistan"></option>
+                <option value="Albania"></option>
+                <option value="Algeria"></option>
+                <option value="Andorra"></option>
+                <option value="Angola"></option>
+                <option value="Antigua &amp; Deps"></option>
+                <option value="Argentina"></option>
+                <option value="Armenia"></option>
+                <option value="Australlia"></option>
+                <option value="Austria"></option>
+                <option value="Azerbaijan"></option>
+                <option value="Bahamas"></option>
+                <option value="Belarus"></option>
+                <option value="Bahrain"></option>
+                <option value="Myanmar(Burma)"></option>
+            </datalist>
+        </div>
+        <button>Submit</button>
+        <button>Clear</button>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+        <style>
+            @media print{
+                .screenonly{
+                    display: none;
+                }
+            }
+            @media (min-width: 600px){
+                p{
+                    background-color: blue;
+                }
+            }
+            @media (max-width: 599px){
+                p{
+                    background-color: red;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ratione repellendus ducimus deleniti eligendi totam cumque dolorem perspiciatis atque, consectetur optio enim, doloremque aliquid quae non placeat et soluta sunt!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tempore quos deserunt officiis dignissimos commodi accusantium consequatur dolores quidem error quod fugiat maxime voluptatibus nemo sint sapiente, assumenda mollitia quas!</p>
+            <p class="screenonly">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus odio dolores nesciunt cum molestias sit molestiae et, doloribus beatae deserunt ipsam repellat architecto. Eum cum, laudantium expedita animi nisi nostrum?</p>
+        </div>
+    </body>
+</html>

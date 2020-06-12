@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            
+        function manage(txt) {
+            var bt = document.getElementById('btSubmit');
+            if (txt.value == '') {
+                bt.disabled = true;
+            }
+            else {
+                bt.disabled = false;
+            }
+        }    
+        document.addEventListener('DOMContentLoaded',()=>{
+            document.querySelector('#todo-list').onsubmit = () => {
+                const li = document.createElement('li');
+                li.innerHTML = document.querySelector('#task').value;
+                document.querySelector('#list').append(li);
+                document.querySelector('#task').value = '';
+                return false;
+            };
+        });
+
+        </script>
+    </head>
+    <body>
+        <ul id="list"></ul>
+        <form id="todo-list">
+            <input type="text" id="task" autocomplete="off" autofocus placeholder="Add todo-task" onkeyup="manage(this)">
+            <input type="submit" disabled id="btSubmit">
+        </form>
+    </body>
+</html>

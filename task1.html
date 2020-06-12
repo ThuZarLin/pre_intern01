@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            function colorchange(){
+                var color = document.getElementById('change-color').value;
+                document.querySelector('#title').style.color = color;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="title">Hello!Welcome to Our PreIntern Group</h1>
+        <select id="change-color" onchange="colorchange()">
+            <option value="black">Black</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+    </body>
+</html>

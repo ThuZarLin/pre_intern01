@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <script>
+            let count = 0;
+            function counter(){
+                count++;
+                document.querySelector('.counter').innerHTML = count;
+                console.log(count);
+            }
+        </script>
+    </head>
+    <body>
+        <h1 class="counter">0</h1>
+        <button onclick="counter()">Click Me!</button>
+    </body>
+</html>
